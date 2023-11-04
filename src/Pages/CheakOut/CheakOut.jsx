@@ -27,7 +27,7 @@ const CheakOut = () => {
     }
        console.log(order);
 
-       fetch('http://localhost:5000/bookings',{
+       fetch('https://car-doctor-server-v.vercel.app',{
         method: 'POST',
         headers:
            {

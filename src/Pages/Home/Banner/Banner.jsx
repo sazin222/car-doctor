@@ -7,7 +7,7 @@ import img5 from '../../../assets/images/banner/5.jpg'
 
 const Banner = () => {
     return (
-        <div className="carousel w-full h-[550px]">
+        <div className="carousel mt-4 w-full h-[550px]">
   <div id="slide1" className="carousel-item justify-center relative w-full">
     <img src={img1} className="w-full rounded-xl" />
     <div className="absolute flex items-center h-full left-0  top-0">
